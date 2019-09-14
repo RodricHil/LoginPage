@@ -1,0 +1,185 @@
+body {
+  background-color: whitesmoke;
+}
+
+.white {
+  background-color: white;
+  z-index: 0;
+  width: 90%;
+  padding: 70px 0px;
+  margin: 3% auto;
+}
+
+.social {
+  float: left;
+  padding: 5% 12%;
+}
+
+.form {
+  background-color: white;
+  width: 377px;
+  height: 450px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px 0px #ccc;
+  z-index: 2;
+  position: relative;
+  margin: 0% 0% 0% 58%;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.email {
+  display: inline-block;
+  margin: 0px 0px 7px 0px;
+}
+
+.loginImage {
+  width: 9%;
+  display: inline;
+  float: left;
+  padding: 0px 12px 8px 35px;
+}
+
+.emailInput {
+  margin: 4px 18px 10px 0px;
+  padding: 5px 30px;
+  display: inline;
+  float: right;
+  border: 0px;
+  width: 57%;
+  border-bottom: 3px solid dodgerblue;
+  text-align: left;
+  border-left: solid dodgerblue;
+}
+
+.password {
+  display: inline-block;
+  margin: 0px 0px 7px 0px;
+}
+
+.lockImage {
+  width: 9%;
+  display: inline;
+  float: left;
+  padding: 0px 12px 8px 35px;
+}
+
+.passwordInput {
+  margin: 4px 18px 10px 0px;
+  padding: 5px 30px;
+  display: inline;
+  float: right;
+  border: 0px;
+  width: 57%;
+  border-bottom: 3px solid dodgerblue;
+  text-align: left;
+  border-left: solid dodgerblue;
+}
+
+.selections {
+  display: inline-block;
+  margin: 0px 0px 7px 0px;
+  width: 100%;
+}
+
+.selectionsRadio {
+  float: left;
+  margin: 2px 9px 0px 45px;
+}
+
+.submit {
+  display: inline-block;
+  margin: 0px 0px 7px 0px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.createAccount {
+  display: inline-block;
+  margin: 0px 0px 7px 0px;
+  width: 100%;
+}
+
+.submitButton {
+  width: 80%;
+  padding: 13px;
+  border-radius: 10px;
+  border: 0px;
+  background-image: linear-gradient(to right, dodgerblue, #b9b9ff);
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-image: linear-gradient(to left, dodgerblue, #b9b9ff);
+}
+
+.selectionsLink {
+  float: right;
+  margin: 0px 18px;
+  text-decoration: none;
+}
+
+.createAccount {
+  text-align: center;
+}
+
+.account {
+  text-decoration: none;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.blueCircle {
+  border: 76px solid dodgerblue;
+  width: 700px;
+  border-radius: 50%;
+  height: 700px;
+  z-index: 1;
+  position: fixed;
+  left: 65%;
+  top: -25%;
+}
+
+.greenCircle {
+  border: 50px solid #9fe052;
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+  z-index: 1;
+  position: fixed;
+  right: 82%;
+  top: 78%;
+}
+
+@media (max-width: 1080px) {
+  .social {
+    padding: 5% 7%;
+  }
+}
+
+@media (max-width: 750px) {
+  .form {
+    background-color: white;
+    width: 293px;
+    box-shadow: 0px 0px 2px 0px #ccc;
+    margin: 0% 0% 0% 58%;
+  }
+  .white {
+    width: 95%;
+  }
+  .social {
+    padding: 5% 0%;
+  }
+  .selectionsLink {
+    float: left;
+    margin: 5px 45px;
+  }
+}
